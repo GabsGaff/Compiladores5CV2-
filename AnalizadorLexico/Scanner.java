@@ -19,6 +19,7 @@ public class Scanner {
         palabrasReservadas.put("y", TipoToken.Y);
         palabrasReservadas.put("clase", TipoToken.CLASE);
         palabrasReservadas.put("falso", TipoToken.FALSE);
+        palabrasReservadas.put("para", TipoToken.FOR);
         /*palabrasReservadas.put("ademas", );
         palabrasReservadas.put("falso", );
         palabrasReservadas.put("para", );
