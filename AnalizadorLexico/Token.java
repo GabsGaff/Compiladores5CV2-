@@ -1,4 +1,4 @@
-package mx.ipn.escom.compiladores;
+package AnalizadorLexico;
 
 public class Token {
 
