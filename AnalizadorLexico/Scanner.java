@@ -22,8 +22,8 @@ public class Scanner {
         /*palabrasReservadas.put("ademas", );
         palabrasReservadas.put("falso", );
         palabrasReservadas.put("para", );
-        palabrasReservadas.put("fun", ); //definir funciones
-        palabrasReservadas.put("si", );
+        palabrasReservadas.put("fun", ); //definir funciones*/
+        palabrasReservadas.put("si", TipoToken.IF);/*
         palabrasReservadas.put("nulo", );
         palabrasReservadas.put("o", );
         palabrasReservadas.put("imprimir", );
