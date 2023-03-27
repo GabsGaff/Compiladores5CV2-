@@ -1,4 +1,4 @@
-package mx.ipn.escom.compiladores;
+package AnalizadorLexico;
 
 import java.util.ArrayList;
 import java.util.HashMap;
