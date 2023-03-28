@@ -17,8 +17,7 @@ public class Scanner {
     static {
         palabrasReservadas = new HashMap<>();
         palabrasReservadas.put("y", TipoToken.Y);
-        palabrasReservadas.put("clase", TipoToken.CLASE);
-        palabrasReservadas.put("ademas", tipoToken.ADEMAS)
+        palabrasReservadas.put("clase", TipoToken.CLASS);
         palabrasReservadas.put("falso", TipoToken.FALSE);
         palabrasReservadas.put("para", TipoToken.FOR);
         palabrasReservadas.put("fun", TipoToken.FUN);
@@ -26,7 +25,7 @@ public class Scanner {
         palabrasReservadas.put("nulo", TipoToken.NULL);
         palabrasReservadas.put("o", TipoToken.O);
         palabrasReservadas.put("imprimir", TipoToken.PRINT);
-        palabrasReservadas.put("retornar", TipoToken.RETURN);
+        palabrasReservadas.put("retorno", TipoToken.RETURN);
         palabrasReservadas.put("super", TipoToken.SUPER);
         palabrasReservadas.put("este", TipoToken.THIS);
         palabrasReservadas.put("verdadero", TipoToken.TRUE);
@@ -35,7 +34,37 @@ public class Scanner {
         palabrasReservadas.put("si", TipoToken.IF);
         palabrasReservadas.put("entero", TipoToken.INT);
         palabrasReservadas.put("cadena", TipoToken.STRING);
-
+        palabrasReservadas.put("mas", TipoToken.ELSE);
+        palabrasReservadas.put("hacer", TipoToken.DO);
+        palabrasReservadas.put("interruptor", TipoToken.SWITCH);
+        palabrasReservadas.put("caso", TipoToken.CASE);
+        palabrasReservadas.put("predeterminado", TipoToken.DEFAULT);
+        palabrasReservadas.put("romper", TipoToken.BREAK);
+        palabrasReservadas.put("continuar", TipoToken.CONTINUE);
+        palabrasReservadas.put("probar", TipoToken.TRY);
+        palabrasReservadas.put("atrapar", TipoToken.CATCH);
+        palabrasReservadas.put("tirar", TipoToken.THROW);
+        palabrasReservadas.put("fin", TipoToken.FINALLY);
+        palabrasReservadas.put("publico", TipoToken.PUBLIC);
+        palabrasReservadas.put("privado", TipoToken.PRIVATE);
+        palabrasReservadas.put("protegido", TipoToken.PROTECTED);
+        palabrasReservadas.put("clase", TipoToken.CLASS);
+        palabrasReservadas.put("interfaz", TipoToken.INTERFACE);
+        palabrasReservadas.put("enumeracion", TipoToken.ENUM);
+        palabrasReservadas.put("extiende", TipoToken.EXTENDS);
+        palabrasReservadas.put("implementa", TipoToken.IMPLEMENTS);
+        palabrasReservadas.put("paquete", TipoToken.PACKAGE);
+        palabrasReservadas.put("importa", TipoToken.IMPORT);
+        palabrasReservadas.put("estatico", TipoToken.STATIC);
+        palabrasReservadas.put("final", TipoToken.FINAL);
+        palabrasReservadas.put("abstracto", TipoToken.ABSTRACT);
+        palabrasReservadas.put("sincronizado", TipoToken.SYNCHRONIZED);
+        palabrasReservadas.put("volatil", TipoToken.VOLATILE);
+        palabrasReservadas.put("transient", TipoToken.TRANSIENT);
+        palabrasReservadas.put("nativo", TipoToken.NATIVE);
+        palabrasReservadas.put("super", TipoToken.SUPER); 
+        palabrasReservadas.put("instancia", TipoToken.INSTANCEOF);
+        palabrasReservadas.put("nuevo", TipoToken.NEW);
 
         /* palabras reservadas
         IF, ELSE, WHILE, FOR, DO, SWITCH, CASE, DEFAULT,
