@@ -18,22 +18,32 @@ public class Scanner {
         palabrasReservadas = new HashMap<>();
         palabrasReservadas.put("y", TipoToken.Y);
         palabrasReservadas.put("clase", TipoToken.CLASE);
+        palabrasReservadas.put("ademas", tipoToken.ADEMAS)
         palabrasReservadas.put("falso", TipoToken.FALSE);
         palabrasReservadas.put("para", TipoToken.FOR);
-        /*palabrasReservadas.put("ademas", );
-        palabrasReservadas.put("falso", );
-        palabrasReservadas.put("para", );
-        palabrasReservadas.put("fun", ); //definir funciones*/
-        palabrasReservadas.put("si", TipoToken.IF);/*
-        palabrasReservadas.put("nulo", );
-        palabrasReservadas.put("o", );
-        palabrasReservadas.put("imprimir", );
-        palabrasReservadas.put("retornar", );
-        palabrasReservadas.put("super", );
-        palabrasReservadas.put("este", );
-        palabrasReservadas.put("verdadero", );
-        palabrasReservadas.put("var", ); //definir variables
-        palabrasReservadas.put("mientras", );*/
+        palabrasReservadas.put("fun", TipoToken.FUN);
+        palabrasReservadas.put("si", TipoToken.SI);
+        palabrasReservadas.put("nulo", TipoToken.NULL);
+        palabrasReservadas.put("o", TipoToken.O);
+        palabrasReservadas.put("imprimir", TipoToken.PRINT);
+        palabrasReservadas.put("retornar", TipoToken.RETURN);
+        palabrasReservadas.put("super", TipoToken.SUPER);
+        palabrasReservadas.put("este", TipoToken.THIS);
+        palabrasReservadas.put("verdadero", TipoToken.TRUE);
+        palabrasReservadas.put("var", TipoToken.VAR);
+        palabrasReservadas.put("mientras", TipoToken.WHILE);
+        palabrasReservadas.put("si", TipoToken.IF);
+        palabrasReservadas.put("entero", TipoToken.INT);
+        palabrasReservadas.put("cadena", TipoToken.STRING);
+
+
+        /* palabras reservadas
+        IF, ELSE, WHILE, FOR, DO, SWITCH, CASE, DEFAULT,
+    BREAK, CONTINUE, RETURN, TRY, CATCH, THROW, FINALLY,
+    PUBLIC, PRIVATE, PROTECTED, CLASS, INTREFACE, ENUM, EXTENDS,
+    IMPLEMENTS, PACKAGE, IMPORT, STATIC, FINAL, ABSTRACT, SYNCHRONIZED,
+    VOLATILE, TRANSIENT, NATIVE, SUPER, THIS, INSTANCEOF, NEW, TRUE, FALSE, NULL, */
+
     }
 
     Scanner(String source){
